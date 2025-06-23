@@ -8,16 +8,12 @@ Today, you'll be working on a scoped down version of our autonomous automation p
 
 Below you will find all the necessary information to complete the task. If you have any questions, please reach out to your contact at Magical.
 
-Once you are complete, please put up the code in a **private** repository and add your contact at Magical as a collaborator (use their email to invite them).
-> Please ensure you do not fork or open a pull request on this repository, put your solution in a private repository.
-
-
-Time limit: this take-home is due 72hrs after you receive it.
-
 ### Task
 
-Create a working agentic loop that will fill out an example healthcare workflow. Here is the SOP (standard operating procedure) for the workflow:
+You are tasked with creating an AI agent that fills out web forms, create a working agentic loop
+that will fill out an example healthcare workflow.
 
+Here is the SOP (standard operating procedure) for the workflow:
 1. Navigate to https://magical-medical-form.netlify.app/
 2. Fill out the form with:
    1. First Name: John
@@ -35,8 +31,10 @@ In this challenge there are a few bonus points, that'll help supercharge the age
    2. Scroll to, and open the appropriate sections
 2. Add the ability to run the workflow via an API call
 3. Add the ability to pass in variables for the prompt
-   1. Think a dynamic "First Name" and "Last Name"
-4. Make it so that this workflow can be run automatically on a schedule, every 5 minutes in this case.
+   1. Think a dynamic "First Name" and "Last Name," you can hardcode an example
+4. Make it so that this workflow can be run automatically on a schedule, every 5 minutes in this
+   case.
+5. Think of something else our agent needs and implement it!
 
 ### What's provided
 
@@ -52,12 +50,6 @@ We've provided you with a basic setup that will set you up for success. You're g
 ### System Requirements
 
 - Node.js 20+
-
-### Your task
-
-You are given a playwright page, and a model.
-
-You need to write a script that will fill out a form on the page.
 
 
 ### Setup
@@ -85,5 +77,3 @@ GOOGLE_GENERATIVE_AI_API_KEY=your_google_key
 ```bash
 npm run dev
 ```
-
-
