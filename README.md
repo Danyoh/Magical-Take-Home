@@ -43,7 +43,7 @@ We've provided you with a basic setup that will set you up for success. You're g
 1. An initiated playwright session
 2. A model setup, with access to the Vercel AI SDK (what we use)
    1. NOTE: You will need to provide your own Gemini API key via the `GOOGLE_GENERATIVE_AI_API_KEY` environment variable.
-   2. You can get a free API key from the [Google AI Studio](https://aistudio.google.com/apikey).
+   2. You can get a free API key from the [Google AI Studio](https://aistudio.google.com/apikey) or we provided a link to one in the email.
 
 ## Setup
 
