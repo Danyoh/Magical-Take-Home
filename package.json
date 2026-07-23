@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node ./src/_internal/run.ts"
+	"dev": "ts-node ./src/_internal/run.ts",
+	"api": "ts-node ./src/api.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +16,8 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@ai-sdk/google": "^1.2.19",
-    "ai": "^4.3.2",
+    "@ai-sdk/google": "^3.0.99",
+    "ai": "^6.0.234",
     "dotenv-defaults": "^5.0.2",
     "playwright": "^1.51.1"
   }
