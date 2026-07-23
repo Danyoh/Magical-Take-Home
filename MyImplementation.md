@@ -17,6 +17,7 @@ The current implementation covers the base task and several bonus items.
 5. Support external workflow input through a JSON file.
 6. Expose the workflow through a small HTTP API.
 7. Add a GitHub Actions workflow for scheduled and manual runs.
+8. Bonus implementations include input validation on workflow-input.json, basic retry (1), API status message.
 
 ### How The Agent Works
 
