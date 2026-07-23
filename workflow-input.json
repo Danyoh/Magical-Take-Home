@@ -1,0 +1,12 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "dateOfBirth": "1990-01-01",
+  "medicalId": "91927885",
+  "gender": "male",
+  "bloodType": "O+",
+  "allergies": "Peanuts",
+  "medications": "None",
+  "emergencyContact": "Jane Doe",
+  "emergencyPhone": "555-123-4567"
+}
