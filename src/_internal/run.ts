@@ -1,7 +1,9 @@
 import "dotenv-defaults/config";
 import { main } from "../main";
+import { loadWorkflowInput } from "../workflowInput";
 
 (async () => {
-  main();
+  const workflowInput = await loadWorkflowInput();
+  await main(workflowInput);
 })();
 
