@@ -3,7 +3,7 @@ import { chromium, Page } from "playwright";
 export async function createSession(url: string): Promise<Page> {
   const browser = await chromium.launch({
     args: ["--window-size=1366,768"],
-    headless: false
+    headless: process.env.HEADLESS === "true"
   });
   const activePage = await browser.newPage();
   if (!activePage) {
